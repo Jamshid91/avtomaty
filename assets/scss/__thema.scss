@@ -1,0 +1,28 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --light: #F6F6F6;
+    --light2: #EBEBEB;
+    --gray: #565656;
+    --border: #C1C1C1;
+
+    --switch: url(../img/svg/night.svg);
+    --circle1: url(../img/png/c1.png);
+    --circle2: url(../img/png/c2.png);
+    --arrow: url(../img/png/arrow.png);
+  }
+  
+  :root[date-theme='dark'] {
+    --white: #1E293B;
+    --black: #fff;
+    --light: #0F172A;
+    --light2: #0F172A;
+    --gray: #ccc;
+    --border: #263041;
+
+
+    --switch: url(../img/svg/sunday.svg);
+    --circle1: url(../img/png/c1-d.png);
+    --circle2: url(../img/png/c2-d.png);
+    --arrow: url(../img/png/arrow-d.png);
+  }
