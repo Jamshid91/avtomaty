@@ -590,6 +590,7 @@ main .block3 .block3-box::before {
   border-top: 2px dashed #DA1919;
   bottom: 117px;
   left: 80px;
+  z-index: 1;
 }
 main .block3 .block3-box .circle1 {
   position: absolute;
